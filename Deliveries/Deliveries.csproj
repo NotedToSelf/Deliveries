@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CS202 Prog1.pdf" />
+    <Content Include="input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

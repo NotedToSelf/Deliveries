@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace DeliveryService
+namespace Deliveries
 {
     abstract class Delivery
     {

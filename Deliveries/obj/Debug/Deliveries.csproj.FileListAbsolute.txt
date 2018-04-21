@@ -1,0 +1,6 @@
+C:\Users\Erik\RiderProjects\Deliveries\Deliveries\bin\Debug\Deliveries.exe
+C:\Users\Erik\RiderProjects\Deliveries\Deliveries\bin\Debug\Deliveries.pdb
+C:\Users\Erik\RiderProjects\Deliveries\Deliveries\obj\Debug\Deliveries.csprojResolveAssemblyReference.cache
+C:\Users\Erik\RiderProjects\Deliveries\Deliveries\obj\Debug\Deliveries.csproj.CoreCompileInputs.cache
+C:\Users\Erik\RiderProjects\Deliveries\Deliveries\obj\Debug\Deliveries.exe
+C:\Users\Erik\RiderProjects\Deliveries\Deliveries\obj\Debug\Deliveries.pdb

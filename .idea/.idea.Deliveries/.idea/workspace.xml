@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2bba01-e267-424b-b3a5-a44347996647" name="Default" comment="" />
+    <list default="true" id="2a2bba01-e267-424b-b3a5-a44347996647" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Deliveries/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deliveries/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deliveries/Deliveries.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Deliveries/Deliveries.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deliveries/Delivery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Deliveries/Delivery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deliveries/Drone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Deliveries/Drone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deliveries/Express.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Deliveries/Express.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deliveries/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Deliveries/Program.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +17,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deliveries/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
-                <marker date="1524292743950" expanded="true" signature="20:130" ph="{...}" />
-                <marker date="1524292743950" expanded="true" signature="49:128" ph="{...}" />
-                <marker date="1524292743950" expanded="true" signature="102:122" ph="{...}" />
+                <marker date="1524293068753" expanded="true" signature="35:158" ph="{...}" />
+                <marker date="1524293068753" expanded="true" signature="64:156" ph="{...}" />
+                <marker date="1524293068753" expanded="true" signature="117:150" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Delivery.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deliveries/Delivery.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1524293067357" expanded="true" signature="59:403" ph="{...}" />
+                <marker date="1524293067357" expanded="true" signature="89:392" ph="{...}" />
+                <marker date="1524293067357" expanded="true" signature="292:329" ph="/* package list ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Deliveries/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="169" selection-start-column="169" selection-end-column="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drone.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deliveries/Drone.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+              <folding>
+                <marker date="1524293087778" expanded="true" signature="20:280" ph="{...}" />
+                <marker date="1524293087778" expanded="true" signature="49:278" ph="{...}" />
+                <marker date="1524293087778" expanded="true" signature="78:181" ph="{...}" />
+                <marker date="1524293087778" expanded="true" signature="220:262" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Express.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deliveries/Express.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <folding>
+                <marker date="1524293087770" expanded="true" signature="20:282" ph="{...}" />
+                <marker date="1524293087770" expanded="true" signature="51:280" ph="{...}" />
+                <marker date="1524293087770" expanded="true" signature="82:185" ph="{...}" />
+                <marker date="1524293087770" expanded="true" signature="232:274" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -27,8 +87,27 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Deliveries/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Deliveries/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Deliveries/Drone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Deliveries/Express.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Deliveries/Delivery.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Deliveries/Deliveries.csproj" />
+        <option value="$PROJECT_DIR$/Deliveries/Program.cs" />
+        <option value="$PROJECT_DIR$/Deliveries/Delivery.cs" />
+        <option value="$PROJECT_DIR$/Deliveries/Drone.cs" />
+        <option value="$PROJECT_DIR$/Deliveries/Express.cs" />
+        <option value="$PROJECT_DIR$/Deliveries/input.txt" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -42,6 +121,7 @@
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -71,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Deliveries/Main.cs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Deliveries/input.txt" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -87,18 +167,18 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Deliveries/bin/Debug/Deliveries.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deliveries/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Deliveries/Deliveries.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v3.5" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -112,11 +192,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524292741232</updated>
       <workItem from="1524292742989" duration="61000" />
+      <workItem from="1524292817703" duration="980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61000" />
+    <option name="totallyTimeSpent" value="1041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -129,29 +210,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32985386" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,10 +250,73 @@
         <state relative-caret-position="85">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding>
-            <marker date="1524292743950" expanded="true" signature="20:130" ph="{...}" />
-            <marker date="1524292743950" expanded="true" signature="49:128" ph="{...}" />
-            <marker date="1524292743950" expanded="true" signature="102:122" ph="{...}" />
+            <marker date="1524293068753" expanded="true" signature="35:158" ph="{...}" />
+            <marker date="1524293068753" expanded="true" signature="64:156" ph="{...}" />
+            <marker date="1524293068753" expanded="true" signature="117:150" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deliveries/Main.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deliveries/Deliveries.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deliveries/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1524293068753" expanded="true" signature="35:158" ph="{...}" />
+            <marker date="1524293068753" expanded="true" signature="64:156" ph="{...}" />
+            <marker date="1524293068753" expanded="true" signature="117:150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deliveries/Express.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <marker date="1524293087770" expanded="true" signature="20:282" ph="{...}" />
+            <marker date="1524293087770" expanded="true" signature="51:280" ph="{...}" />
+            <marker date="1524293087770" expanded="true" signature="82:185" ph="{...}" />
+            <marker date="1524293087770" expanded="true" signature="232:274" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deliveries/Drone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <marker date="1524293087778" expanded="true" signature="20:280" ph="{...}" />
+            <marker date="1524293087778" expanded="true" signature="49:278" ph="{...}" />
+            <marker date="1524293087778" expanded="true" signature="78:181" ph="{...}" />
+            <marker date="1524293087778" expanded="true" signature="220:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deliveries/Delivery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1524293067357" expanded="true" signature="59:403" ph="{...}" />
+            <marker date="1524293067357" expanded="true" signature="89:392" ph="{...}" />
+            <marker date="1524293067357" expanded="true" signature="292:329" ph="/* package list ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deliveries/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="169" selection-start-column="169" selection-end-column="169" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-﻿namespace DeliveryService
+﻿namespace Deliveries
 {
     class Express : Delivery
     {
