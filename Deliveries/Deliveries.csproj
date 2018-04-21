@@ -41,8 +41,11 @@
     <Compile Include="Delivery.cs" />
     <Compile Include="Drone.cs" />
     <Compile Include="Express.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Standard.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CS202 Prog1.pdf" />

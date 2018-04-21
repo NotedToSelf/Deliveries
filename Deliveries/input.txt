@@ -1,1 +1,2 @@
-20;Los Angeles;Portland;Boise;Sacramento;Las Vegas;Boulder;Pheonix;Tuscon;Eugene;Seattle;San Diego;Salt Lake City;Helena;Denver;Santa Fe;Carson City;Olympia;Reno;Medford;Spokane
+20
+Los Angeles;Portland;Boise;Sacramento;Las Vegas;Boulder;Pheonix;Tuscon;Eugene;Seattle;San Diego;Salt Lake City;Helena;Denver;Santa Fe;Carson City;Olympia;Reno;Medford;Spokane
