@@ -8,7 +8,6 @@
         <e p="CS202 Prog1.pdf" t="Include" />
         <e p="Deliveries.csproj" t="IncludeRecursive" />
         <e p="Delivery.cs" t="Include" />
-        <e p="Drone.cs" t="Include" />
         <e p="Graph.cs" t="Include" />
         <e p="input.txt" t="Include" />
         <e p="Location.cs" t="Include" />
