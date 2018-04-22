@@ -8,6 +8,7 @@ namespace Deliveries
         {
             //Create map. Default constructor reads map data and constructs map
             Graph map = new Graph();
+            map.displayAll();
         }
     }
 }

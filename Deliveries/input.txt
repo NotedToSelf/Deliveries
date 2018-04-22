@@ -1,23 +1,22 @@
 20
 Los Angeles;Portland;Boise;Sacramento;Las Vegas;Pheonix;Tuscon;Eugene;Seattle;San Diego;Salt Lake City;Helena;Denver;Santa Fe;Carson City;Olympia;Reno;Medford;Spokane;Casper
-San Diego;4;Pheonix-355-75;Los Angeles-120-70;Las Vegas-331-75;Tuscon-406-75
+Los Angeles;3;San Diego-120-70;Las Vegas-270-80;Sacramento-384-75
+Portland;3;Eugene-273-65;Boise-429-80;Olympia-113-75
+Boise;6;Salt Lake City-344-65;Helena-486-70;Seattle-504-80;Portland-429-80;Medford-471-80;Reno-420-75
+Sacramento;4;Los Angeles-384-75;Carson City-130-75;Reno-131-70;Medford-307-75
+Las Vegas;5;Los Angeles-270-80;San Diego-331-75;Pheonix-297-80;Salt Lake City-420-75;Carson City-430-75
 Pheonix;4;Tuscon-113-70;San Diego-355-75;Santa Fe-480-80;Las Vegas-297-80
 Tuscon;3;Pheonix-113-70;San Diego-406-75;Santa Fe-511-80
-Los Angeles;3;San Diego-120-70;Las Vegas-270-80;Sacramento-384-75
-Santa Fe;3;Pheonix-480-89;Tuscon-511-80;Denver-392-75
-Las Vegas;5;Los Angeles-270-80;San Diego-331-75;Pheonix-297-80;Salt Lake City-420-75;Carson City-430-75
-Denver;3;Santa Fe-392-75;Salt Lake City-520-80;Casper-277-70
+Eugene;2;Medford-166-70;Portland-273-65
+Seattle;3;Olympia-60-80;Boise-504-80;Spokane-279-80
+San Diego;4;Pheonix-355-75;Los Angeles-120-70;Las Vegas-331-75;Tuscon-406-75
 Salt Lake City;6;Las Vegas-420-75;Denver-520-80;Casper-408-75;Boise-344-65;Reno-518-75;Carson City-546-80
-Casper;3;Denver-277-70;Salt Lake City-520-80;Helena-483-75
-Sacramento;4;Los Angeles-384-75;Carson City-130-75;Reno-131-70;Medford-307-75
+Helena;4;Casper-482-75;Boise-486-70;Spokane-309-75;Olympia-628-85
+Denver;3;Santa Fe-392-75;Salt Lake City-520-80;Casper-277-70
+Santa Fe;3;Pheonix-480-89;Tuscon-511-80;Denver-392-75
 Carson City;5;Sacramento-130-75;Las Vegas-430-75;Salt Lake City-546-80;Reno-32-75;Medford-333-70
+Olympia;3;Portland-113-75;Helena-628-85;Seattle-60-80
 Reno;5;Carson City-32-75;Salt Lake City-518-75;Boise-420-75;Medford-305-75;Sacramento-131-70
 Medford;5;Sacramento-307-75;Carson City-333-70;Reno-305-75;Boise-471-80;Eugene-166-70
-Eugene;2;Medford-166-70;Portland-273-65
-Boise;6;Salt Lake City-344-65;Helena-486-70;Seattle-504-80;Portland-429-80;Medford-471-80;Reno-420-75
-Helena;4;Casper-482-75;Boise-486-70;Spokane-309-75;Olympia-628-85
-Portland;3;Eugene-273-65;Boise-429-80;Olympia-113-75
-Olympia;3;Portland-113-75;Helena-628-85;Seattle-60-80
 Spokane;2;Helena-309-75;Seattle-279-80
-Seattle;3;Olympia-60-80;Boise-504-80;Spokane-279-80
-end
+Casper;3;Denver-277-70;Salt Lake City-520-80;Helena-483-75

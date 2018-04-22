@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delivery.cs" />
+    <Compile Include="EdgeList.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Program.cs" />
