@@ -42,6 +42,7 @@
     <Compile Include="EdgeList.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="Location.cs" />
+    <Compile Include="Package.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 
 namespace Deliveries
 {
@@ -7,8 +6,12 @@ namespace Deliveries
     {
         private Edge head;
 
-        //Default constructor
+        //Constructors/Destructor
         public EdgeList()
+        {
+            head = null;
+        }
+        ~EdgeList()
         {
             head = null;
         }
@@ -26,12 +29,10 @@ namespace Deliveries
             head = new Edge(toAdd, temp);
             return 1;
         }
-
         public int display()
         {
             return display(head);
         }
-
         private int display(Edge head)
         {
             if (head == null)
@@ -48,7 +49,15 @@ namespace Deliveries
         private int distance;
         private int mph;
 
+        //Constructors/Destructor
         public Edge()
+        {
+            next = null;
+            adjacent = null;
+            distance = 0;
+            mph = 0;
+        }
+        ~Edge()
         {
             next = null;
             adjacent = null;
@@ -76,12 +85,10 @@ namespace Deliveries
             mph = toCopy.mph;
             next = null;
         }
-
         public Edge go_next()
         {
             return next;
         }
-
         public void display()
         {
             adjacent.printName();

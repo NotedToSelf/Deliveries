@@ -13,6 +13,7 @@
         <e p="input.txt" t="Include" />
         <e p="Location.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="Package.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />

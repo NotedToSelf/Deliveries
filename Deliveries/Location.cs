@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.InteropServices;
 
 namespace Deliveries
 {
@@ -8,10 +7,17 @@ namespace Deliveries
         private string name;
         private EdgeList adjacent;
 
+        //Constructors/Destructor
         public Location()
         {
             name = null;
             adjacent = new EdgeList();
+        }
+
+        ~Location()
+        {
+            name = null;
+            adjacent = null;
         }
         public Location(string name)
         {
@@ -27,7 +33,7 @@ namespace Deliveries
         }
         public void printName()
         {
-            Console.Write("\t" + name);
+            Console.Write(name);
         }
 
         public int insertEdge(Edge toAdd)

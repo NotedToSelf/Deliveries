@@ -1,17 +1,32 @@
-﻿using System.Runtime.InteropServices;
-
-namespace Deliveries
+﻿namespace Deliveries
 {
-    abstract class Delivery
+    public abstract class Delivery
     {
         protected int capacity;   //number of packages the delivery can hold
         protected float estimate; //estimated delivery time
         protected float payment;  //driver payment
+        protected Location start; //starting position
+        protected Location end; //ending position
         //package list
         //route list  
         
+        //Constructors/Destructor
+        protected Delivery()
+        {
+            estimate = 0.0f;
+            payment = 0.0f;
+            start = null;
+            end = null;
+        }
+
+        ~Delivery()
+        {
+            start = null;
+            end = null;
+        }
         abstract public int deliver();
-        
+        abstract public string deliveryType();
+
     }
 
     //Standard delivery class
@@ -22,13 +37,16 @@ namespace Deliveries
         public Standard()
         {
             capacity = 20;
-            estimate = 0.0f;
-            payment = 0.0f;
         }
         
         public override int deliver()
         {
             return 0;
+        }
+
+        public override string deliveryType()
+        {
+            return "standard";
         }
     }     
     
@@ -40,13 +58,16 @@ namespace Deliveries
         public Express()
         {
             capacity = 3;
-            estimate = 0.0f;
-            payment = 0.0f;
         }
         
         public override int deliver()
         {
             return 0;
+        }
+
+        public override string deliveryType()
+        {
+            return "express";
         }
     }
     
@@ -58,13 +79,16 @@ namespace Deliveries
         public Drone()
         {
             capacity = 1;
-            estimate = 0.0f;
-            payment = 0.0f;
         }
 
         public override int deliver()
         {
             return 0;
+        }
+
+        public override string deliveryType()
+        {
+            return "drone";
         }
     }
 }
