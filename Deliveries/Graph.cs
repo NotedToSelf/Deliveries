@@ -116,11 +116,11 @@ namespace Deliveries
         public void displayNames()
         {
             Console.WriteLine("\nAvailible Cities:\n");
-            for (int i = 0, j=mapSize/2; i < mapSize/2; ++i, ++j)
+            for (int i = 0, j = mapSize / 2; i < mapSize / 2; ++i, ++j)
             {
-                Console.Write(i+1 + ". ");
+                Console.Write(i + 1 + ". ");
                 cityList[i].printName();
-                Console.Write("\t\t" + (j+1) + ". ");
+                Console.Write("\t\t" + (j + 1) + ". ");
                 cityList[j].printName();
                 Console.WriteLine();
             }
@@ -130,6 +130,22 @@ namespace Deliveries
         public int findRoute(Delivery carrier)
         {
             return 0;
+        }
+
+        public Location promptStart()
+        {
+            displayNames();
+            Console.Write("\nWhat is your desired starting location?\n\t -> ");
+            int index = Convert.ToInt32(Console.ReadLine());
+            return cityList[index - 1];
+        }
+
+        public Location promptEnd()
+        {
+            displayNames();
+            Console.Write("\nWhat is your desired ending location?\n\t -> ");
+            int index = Convert.ToInt32(Console.ReadLine());
+            return cityList[index - 1];
         }
     }
 }

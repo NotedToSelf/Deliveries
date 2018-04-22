@@ -1,4 +1,6 @@
-﻿namespace Deliveries
+﻿using System;
+
+namespace Deliveries
 {
     public abstract class Delivery
     {
@@ -26,7 +28,14 @@
         }
         abstract public int deliver();
         abstract public string deliveryType();
-
+        public void display()
+        {
+            Console.WriteLine("\tNumber of packages: " + capacity);
+            Console.Write("\tStarting Location: ");
+            start.printName();
+            Console.Write("\n\tEnding Location: ");
+            end.printName();
+        }
     }
 
     //Standard delivery class
@@ -37,8 +46,16 @@
         public Standard()
         {
             capacity = 20;
+            start = null;
+            end = null;
         }
-        
+
+        public Standard(int capacity, Location start, Location end)
+        {
+            this.capacity = capacity;
+            this.start = start;
+            this.end = end;
+        }
         public override int deliver()
         {
             return 0;
@@ -48,6 +65,8 @@
         {
             return "standard";
         }
+
+     
     }     
     
     //Express delivery class
@@ -58,6 +77,15 @@
         public Express()
         {
             capacity = 3;
+            start = null;
+            end = null;
+        }
+
+        public Express(int capacity, Location start, Location end)
+        {
+            this.capacity = capacity;
+            this.start = start;
+            this.end = end;
         }
         
         public override int deliver()
@@ -79,6 +107,15 @@
         public Drone()
         {
             capacity = 1;
+            start = null;
+            end = null;
+        }
+
+        public Drone(Location start, Location end)
+        {
+            capacity = 1;
+            this.start = start;
+            this.end = end;
         }
 
         public override int deliver()

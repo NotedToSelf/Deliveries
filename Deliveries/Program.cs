@@ -66,23 +66,35 @@ namespace Deliveries
                 switch (response)
                 {
                     case 1:
-                        Console.WriteLine("How many packages are you delivering? (max 10)");
+                        Console.Write("How many packages are you delivering? (max 10)\n\t -> ");
                         numPackages = Convert.ToInt32(Console.ReadLine());
-                        toCreate = new Standard();
+                        Location startS = map.promptStart();
+                        Location endS = map.promptEnd();
+                        toCreate = new Standard(numPackages, startS, endS);
                         correct = true;
                         break;
                     case 2:
-                        toCreate = new Express();
+                        Console.Write("How many packages are you delivering? (max 3)\n\t -> ");
+                        numPackages = Convert.ToInt32(Console.ReadLine());
+                        Location startE = map.promptStart();
+                        Location endE = map.promptEnd();
+                        toCreate = new Express(numPackages, startE, endE);                  
                         correct = true;
                         break;
                     case 3:
-                        toCreate = new Drone();
+                        Console.Write("Creating Drone. Drones can only deliver one package.");
+                        Location startD = map.promptStart();
+                        Location endD = map.promptEnd();
+                        toCreate = new Drone(startD, endD);
                         correct = true;
                         break;
                     default:
                         Console.WriteLine("Invalied response. Try again with a number");
                         break; 
                 }
+                Console.WriteLine("\nSuccessfully created Delivery service with the following info:");
+                toCreate.display();
+                Console.WriteLine();
             }
         }
         //Prompt user to enter a menu choice
